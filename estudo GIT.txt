@@ -1,0 +1,26 @@
+## clonar repositorio
+git clone <URL>
+
+## verificar quantidade de versões
+git tag
+
+## trocar de versão
+git checkout <VERSAO>
+
+## verificar diferença entre versões
+git diff v0.1 v0.2
+
+## transformar uma pasta em um repositorio
+	--esteja dentro da pasta --> cd /repositorio
+git init
+
+## verifica se o arquivo ta pronto pro commit
+git status
+
+## prepara os arquivos para o commit
+git add *
+
+## realiza o commit
+git commit -m "<COMENTARIO>"
+
+##
