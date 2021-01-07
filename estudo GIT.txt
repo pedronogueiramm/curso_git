@@ -35,3 +35,11 @@ git remote add origin
 ## enviar arquivos para o repositorio remoto
 git push origin master
 
+
+=============================================
+
+## apenas ficar dando update
+git status
+git add *
+git commit -m '<COMENTARIO>'
+git push origin master
