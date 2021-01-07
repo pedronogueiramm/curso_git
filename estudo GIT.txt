@@ -23,4 +23,15 @@ git add *
 ## realiza o commit
 git commit -m "<COMENTARIO>"
 
-##
+## ver os commits anteriores
+git whatchanged // git log
+
+## ver os repositorios github linkados na maquina remotamente
+git remote
+
+## adicionar repositorio remoto
+git remote add origin
+
+## enviar arquivos para o repositorio remoto
+git push origin master
+
