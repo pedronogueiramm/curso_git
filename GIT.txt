@@ -1,0 +1,37 @@
+## INFORMA QUE A PASTA É UM REPOSITORIO (TEM QUE NAVEGAR PARA A PASTA PELO GIT BASH)
+git init || git init --bare (cria um repositorio que só armazena)
+
+## INFORMA SE HÁ MODIFICAÇÕES NO REPOSITORIO LOCAL
+git status
+
+## INFORMA PRO REPOSITORIO MONITORAR OS ARQUIVOS
+git add * || git add . || git add index.html
+
+## COMMIT
+git commit -m "Mensagem descritiva sobre as alterações feitas"
+
+## INFORMAR AO GIT QUEM VOCE É
+git config --global user.name "Seu nome aqui"
+git config --global user.email "seu@email.aqui"
+
+## VERIFICA HISTORICO DE ALTERAÇÕES
+https://devhints.io/git-log
+git log || git log --oneline || git log -p
+
+## CRIA UMA CONEXAO COM OUTRO REPOSITORIO
+git remote add <NOME> <URL> || git remote add <NOME> <PATH>
+
+## CHECA AS CONEXOES
+git remote
+
+## REMOVE CONEXOES
+git remote rm <NOME>
+
+## RENOMEAR CONEXAO
+git remote rename <NOME_ANTIGO> <NOME_NOVO>
+
+## ENVIAR DE UM REPOSITORIO PARA OUTRO
+git push <NOME_DO_REMOTE> <NOME_BRANCH>
+
+## ATUALIZAR OS ARQUIVOS DO REPOSITORIO
+git pull <NOME_DO_REMOTE> <NOME_BRANCH>
