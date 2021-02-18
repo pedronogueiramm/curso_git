@@ -4,8 +4,15 @@ git clone <URL>
 ## verificar quantidade de versões
 git tag
 
-## trocar de versão
-git checkout <VERSAO>
+## CRIAR UMA BRANCH
+git branch <NOME>
+
+## trocar de BRANCH
+git checkout <BRANCH>
+
+## UNIR CONTEUDO DE UMA BRANCH COM A master
+git checkout master 
+git merge <NOME_DA_BRANCH>
 
 ## verificar diferença entre versões
 git diff v0.1 v0.2
