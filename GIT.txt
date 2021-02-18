@@ -46,3 +46,12 @@ git reset HEAD <NOME_DO_ARQUIVO>
 git log
 <copia o hash do commit>
 git rever <HASH_DO_COMMIT>
+
+## GUARDANDO TEMPORARIAMENTE MODIFICAÇÕES
+git stash
+
+## VER MODIFICAÇÕES GUARDADAS TEMPORARIAMENTE
+git stash list
+
+## RECUPERANDO MODIFICAÇÕES TEMPORARIAS
+git stash pop
