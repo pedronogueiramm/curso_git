@@ -55,3 +55,14 @@ git stash list
 
 ## RECUPERANDO MODIFICAÇÕES TEMPORARIAS
 git stash pop
+
+## NAVEGANDO ENTRE OS ANTIGOS ESTADOS DO CÓDIGO (COMMITS)
+git log --oneline
+<copia hash>
+git checkout <HASH>
+    ## caso queira adicionar modificações a partir dessa versão do código deve-se criar um branch
+    git checkout -b <NOME_BRANCH>
+## CRIANDO TAGS (RELEASE / VERSÕES DO CÓDIGO)
+git tag -a v0.1.0 -m "Lançando a primeira versão (BETA)"
+    ## dando push na versão
+    git push origin v0.1.0
