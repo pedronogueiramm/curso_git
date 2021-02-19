@@ -66,3 +66,11 @@ git checkout <HASH>
 git tag -a v0.1.0 -m "Lançando a primeira versão (BETA)"
     ## dando push na versão
     git push origin v0.1.0
+
+## REALIZANDO MERGE (USAR NA BRANCH QUE VAI RECEBER O MERGE)
+git merge <NOME_BRANCH>
+
+## CASO EXISTA MAIN E MASTER
+git pull origin branchname --allow-unrelated-histories
+	## E DEPOIS REALIZAR O PULL
+	git push origin master
